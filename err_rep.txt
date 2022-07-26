@@ -1,0 +1,42 @@
+REP 1
+decimal değerlerde toplama işleminde hata:
+25.5 --> 255
+
+muhtemel çözümler:
+num/1+..+"." sonrası karakter sayısı
+
+ex script1
+25.5 --> 255/10 = 25.5
+ex script2
+25.55 --> 2555/100 = 25.55
+
+muhtemel çözüm rep: 
+vt kaydı yapılırken "+"
+kayıt çekildikten sonra veriyle aritmetik işlemler yapma "?"
+
+?: 25.55, alındıktan sonra = 25.55, tekrardan "." sonrası kontrol yapmak gerekebilir, gerekmeyebilir.
+
+gerekirse:
+işlemci ve kod parçacığı uzaması
+gerekmezse:
+"+"
+
+REP 2
+hücre editlerken barkod okutma: hücreye karakter sınırı
+
+
+REP 3
+
+TOPLAM sütununu readonly yapınca programatik olarak veri ekleyemiyoruz(??)
+çözüm:
+readonly = false yapıldı. Data editlenebilir, edit başlangıcında hücre verisi alınmalı ve bitiminde yeni veriyle değiştirilmeli (değişiklik geri alındı) "+"
+
+
+REP1-FİXED
+
+REP2-SEMİ/FİXED
+
+REP3-FİXED
+
+UPDATED REP: *NONE*
+

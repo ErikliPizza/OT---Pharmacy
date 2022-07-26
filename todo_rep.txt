@@ -1,0 +1,14 @@
+1-fiş
+2-loglarda arama ve tarihler arası toplam girdi çıktı filtrelemesi
+
+
+DRY CODE:
+
+REP1 çözümünde denenen algoritma parçacıkları birçok farklı bölümde kullanıldı. Yeni bir fonksiyon oluşturup bu algoritmanın oradan çağırılması optimize için önemli olabilir.
+Kod bütünü yeniden gözden geçirilebilir.
+
+İyileştirmeler:
+
+dataview ve datagridview ile yapılan işlemler yeniden gözden geçirilebilir.
+
+login ekranı optimize edilmeli, login ekranındaki ekstralar(ip gösterme vs) kaldırılabilir.
